@@ -1,0 +1,42 @@
+# Site settings
+title:     Mustafa Çetin - Design effective digital products
+email:     me@mcetin.nl
+description: "Maker of things"
+keywords: "owlfurty, Mustafa Cetin, designer, studio, blog, personal site, freelancer"
+author:   "Mustafa Çetin"
+url: "https://mcetin.nl"
+baseurl: ""
+
+# SCSS settings
+sass:
+  sass_dir: assets/stylesheets/_libs
+
+# SNS settings
+RSS: ture
+dribbble_username:  owlfurty
+behance_username:   owlfurty
+pinterest_username: owlfurty
+github_username:    owlfurty
+instagram_username: owlfurty
+
+# Paginate settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 5
+paginate_path: "blog/page:num"
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true
+
+# plugins
+plugins: [jekyll-paginate]
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+# Analytics settings
+
+ga_track_id: 'UA-XXXXXXXX-1'
